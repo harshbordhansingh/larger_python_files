@@ -1,0 +1,1 @@
+print("".join(list(map(lambda a:a if a.isalpha() or a == " " else "",list(input()))))[::-1])
